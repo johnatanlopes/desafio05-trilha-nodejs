@@ -4,7 +4,7 @@
 
   "type": "postgres",
   "name": "default",
-  "host": "localhost",
+  "host": "host.docker.internal",
   "port": 5432,
   "database": "queries_challenge",
   "entities": ["./src/modules/**/entities/*.ts"],
